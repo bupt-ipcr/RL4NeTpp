@@ -1,4 +1,4 @@
-<h2 align="center">RL4NeT++: A Packet Level Network Simulation Framework for DRL-Based Routing Algorithms</h2>
+<h2 align="center">RL4NeT++: A Packet-Level Network Simulation Framework for DRL-Based Routing Algorithms</h2>
 <p align="center"><b>Intelligent Sensing and Computing Research Center / School of Artificial Intelligence / Beijing University of Posts and Telecommunications</b></p>
 
 
@@ -24,7 +24,6 @@
 
 ```
 ├── README.md
-
 ├── environment.yml // conda environment setup file
 ├── cmd // scripts for controlling simulation environment execution and simulation processes
 	├── kill.sh // Script for terminating running simulation processes
