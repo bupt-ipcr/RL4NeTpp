@@ -24,23 +24,23 @@
 
 ```
 ├── README.md
-├── environment.yml // conda environment setup file
-├── cmd // scripts for controlling simulation environment execution and simulation processes
-	├── kill.sh // Script for terminating running simulation processes
-	├── start.sh // Script for starting a simulation process
-	└── update.sh // Script for updating the simulation environment and restart it
-├── config // Configuration files for the simulation environment
-	├── omnetpp.ini // OMNeT++ initialization file
-	└── ned // Network topologies and initial probability tables
-├── modules // Components of the simulation environment
+├── environment.yml  		// conda environment setup file
+├── cmd 			// scripts for controlling simulation environment execution and simulation processes
+	├── kill.sh 		// Script for terminating running simulation processes
+	├── start.sh		// Script for starting a simulation process
+	└── update.sh 		// Script for updating the simulation environment and restart it
+├── config 			// Configuration files for the simulation environment
+	├── omnetpp.ini 	// OMNeT++ initialization file
+	└── ned 		// Network topologies and initial probability tables
+├── modules 			// Components of the simulation environment
 	├── init.py
-	├── gym_env // Communication module connecting Python and OMNeT++
-	├── omnetpp // Addon files to OMNeT++
-	└── inet // Addon files to INET
-└── utils // Tools for users' convenience
-	├── get_ned.py // Convert topology files from GML files to NED file
-	├── get_ospf_ned.py // Replace routers in the topology information with OSPF
-	└── get_rip_ned.py // Replace routers in the topology information with RIP
+	├── gym_env 		// Communication module connecting Python and OMNeT++
+	├── omnetpp 		// Addon files to OMNeT++
+	└── inet 		// Addon files to INET
+└── utils 			// Tools for users' convenience
+	├── get_ned.py 		// Convert topology files from GML files to NED file
+	├── get_ospf_ned.py 	// Replace routers in the topology information with OSPF
+	└── get_rip_ned.py 	// Replace routers in the topology information with RIP
 ```
 
 ## Environment Setup
@@ -188,9 +188,9 @@ The installation is now complete.
 
 ### Modify Simulation Mode
 
-- **Traditional Routing Algorithms: ** Change `simMode`  in `config/omnetpp.ini` file to 0.
-- **Single-Agent Reinforcement Learning Algorithm(SADRL): ** Change `simMode` to 1.
-- **Multi-Agent Reinforcement Learning Algorithm(MADRL): ** Change `simMode` to 2.
+- **Traditional Routing Algorithms**:  Change `simMode`  in `config/omnetpp.ini` file to 0.
+- **Single-Agent Reinforcement Learning Algorithm(SADRL)**:  Change `simMode` to 1.
+- **Multi-Agent Reinforcement Learning Algorithm(MADRL)**:  Change `simMode` to 2.
 
 In `config/omnetpp.ini` , update the network topology information that needs to be simulated in `network` and `routingFileName` parameters. Other parameters can be adjusted according to simulation requirements.
 
