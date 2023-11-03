@@ -287,4 +287,4 @@ while current_episode < MAX_EPISODE:
 
 ## Contact
 
-Guocheng Lin ([lgc0208@bupt.edu.cn](mailto:lgc0208@bupt.edu.cn)), Beijing University of Posts and Telecommunications, China
+Guocheng Lin ([linguocheng@bupt.edu.cn](mailto:linguocheng@bupt.edu.cn)), Beijing University of Posts and Telecommunications, China
