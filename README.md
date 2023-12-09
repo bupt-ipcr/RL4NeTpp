@@ -48,7 +48,7 @@
 In the current directory, download the RL4Net++ source code:
 
 ```bash
-git clone XXX
+git clone https://github.com/bupt-ipcr/RL4NeTpp.git
 ```
 
 ### Conda Environment Setup
